@@ -9,7 +9,7 @@ public class Main {
         String exp = in.nextLine();
         Lexer l = new Lexer(exp);
         Token t;
-        while((t = l.next()) != null)
+        while ((t = l.next()) != null)
             System.out.println(t.toString());
     }
 }
